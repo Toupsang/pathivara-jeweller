@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============================================================
+       Pathivara Jewellers — Products / Collection Page
+       ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse the complete collection of handcrafted gold and silver jewellery at Pathivara Jewellers, Jhapa, Nepal." />
+  <title>Collection | Pathivara Jewellers</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-main">Pathivara Jewellers</span>
+        <span class="logo-sub">Est. 2007 · Jhapa, Nepal</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Collection</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-drawer">
+    <a href="index.html">Home</a>
+    <a href="products.html">Collection</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">Our Story</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- ── PAGE HERO ── -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="page-eyebrow">✦ Handcrafted Pieces</span>
+      <h1 class="page-title">Our Collection</h1>
+      <p class="page-subtitle">Gold, Silver & Gemstone Jewellery — made with love in Jhapa</p>
+    </div>
+  </section>
+
+  <!-- ── PRODUCTS ── -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Category Filter Buttons -->
+      <div class="products-filter reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="necklace">Necklaces</button>
+        <button class="filter-btn" data-filter="ring">Rings</button>
+        <button class="filter-btn" data-filter="earring">Earrings</button>
+        <button class="filter-btn" data-filter="bangles">Bangles</button>
+        <button class="filter-btn" data-filter="bridal">Bridal Sets</button>
+      </div>
+
+      <!-- Products Grid — 6 items linking to individual pages -->
+      <div class="products-grid">
+
+        <!-- 1 -->
+        <div class="product-card reveal" data-category="necklace">
+          <div class="product-card-image">
+            <img src="panchadhatu.webp" alt="Panchdhatu Gold Necklace" loading="lazy" />
+            <span class="product-card-badge">Bestseller</span>
+          </div>
+          <div class="product-card-body">
+            <p class="product-category">Traditional Necklace</p>
+            <h3>Panchdhatu Gold Necklace</h3>
+            <div class="product-card-footer">
+              <div class="product-price">NPR 6,55,000</div>
+              <a href="products/product1.html" class="btn btn-outline" style="padding:10px 20px;font-size:0.65rem;">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="product-card reveal reveal-delay-1" data-category="ring">
+          <div class="product-card-image">
+            <img src="diamond ring.jpg" alt="Diamond Bridal Ring" loading="lazy" />
+            <span class="product-card-badge">New</span>
+          </div>
+          <div class="product-card-body">
+            <p class="product-category">Bridal Ring</p>
+            <h3>Diamond Solitaire Bridal Ring</h3>
+            <div class="product-card-footer">
+              <div class="product-price">NPR 3,99,999</div>
+              <a href="products/product2.html" class="btn btn-outline" style="padding:10px 20px;font-size:0.65rem;">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="product-card reveal reveal-delay-2" data-category="earring">
+          <div class="product-card-image">
+            <img src="ear-.jpg" alt="Gold Jhumka Earrings" loading="lazy" />
+          </div>
+          <div class="product-card-body">
+            <p class="product-category">Traditional Earrings</p>
+            <h3>Gold Jhumka Earrings</h3>
+            <div class="product-card-footer">
+              <div class="product-price">NPR 1,99,000</div>
+              <a href="products/product3.html" class="btn btn-outline" style="padding:10px 20px;font-size:0.65rem;">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="product-card reveal" data-category="bangles">
+          <div class="product-card-image">
+            <img src="bamg.jpg" alt="Gold Filigree Bangles" loading="lazy" />
+          </div>
+          <div class="product-card-body">
+            <p class="product-category">Bangles & Kadas</p>
+            <h3>22K Gold Filigree Bangles</h3>
+            <div class="product-card-footer">
+              <div class="product-price">NPR 2,95,999</div>
+              <a href="products/product4.html" class="btn btn-outline" style="padding:10px 20px;font-size:0.65rem;">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="product-card reveal reveal-delay-1" data-category="bridal">
+          <div class="product-card-image">
+            <img src="bridal set.webp" alt="Bridal Jewellery Set" loading="lazy" />
+            <span class="product-card-badge">Premium</span>
+          </div>
+          <div class="product-card-body">
+            <p class="product-category">Bridal Collection</p>
+            <h3>Full Bridal Gold Set</h3>
+            <div class="product-card-footer">
+              <div class="product-price">NPR 13,99,999</div>
+              <a href="products/product5.html" class="btn btn-outline" style="padding:10px 20px;font-size:0.65rem;">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="product-card reveal reveal-delay-2" data-category="ring">
+          <div class="product-card-image">
+            <img src="band.avif" alt="Gold Band Ring" loading="lazy" />
+          </div>
+          <div class="product-card-body">
+            <p class="product-category">Daily Wear Ring</p>
+            <h3>Classic 22K Gold Band</h3>
+            <div class="product-card-footer">
+              <div class="product-price">NPR 28,000</div>
+              <a href="products/product6.html" class="btn btn-outline" style="padding:10px 20px;font-size:0.65rem;">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <div class="cta-banner">
+    <div class="container">
+      <h2 class="reveal">Can't find what you're looking for?</h2>
+      <p class="reveal reveal-delay-1">We create custom jewellery to your exact design and requirements.</p>
+      <a href="contact.html" class="btn btn-gold reveal reveal-delay-2">Request Custom Order</a>
+    </div>
+  </div>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-main">Pathivara Jewellers</div>
+          <p class="logo-tagline">Crafting Tradition, Defining Elegance Since 2007</p>
+          <p>Founded by Bijay Shrestha with passion and dedication.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Facebook">&#x66;</a>
+            <a href="#" class="social-link" aria-label="Instagram">&#x269;</a>
+            <a href="#" class="social-link" aria-label="WhatsApp">&#x2709;</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Collection</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="products.html">Necklaces & Haars</a></li>
+            <li><a href="products.html">Rings & Bands</a></li>
+            <li><a href="products.html">Earrings & Jhumkas</a></li>
+            <li><a href="products.html">Bangles & Kadas</a></li>
+            <li><a href="products.html">Bridal Sets</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Find Us</h4>
+          <address class="footer-address" style="font-style:normal;">
+            <strong>Pathivara Jewellers</strong>
+            Mechinagar-13, Charaali<br />Jhapa, Nepal
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2007–<span id="year"></span> <span>Pathivara Jewellers</span>. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
